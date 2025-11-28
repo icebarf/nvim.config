@@ -4,7 +4,7 @@
 --  For more options, you can see `:help option-list`
 
 -- tabs
-vim.o.shiftwdith = 2
+vim.o.shiftwidth = 2
 vim.o.tabstop = 2
 vim.o.expandtab = true
 
