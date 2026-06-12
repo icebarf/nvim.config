@@ -139,7 +139,8 @@ local servers = {
             '${3rd}/luv/library',
             '${3rd}/busted/library',
           }),
-      }
+        },
+      })
 
       -- LSP servers and clients are able to communicate to each other what features they support.
       --  By default, Neovim doesn't support everything that is in the LSP specification.
@@ -184,7 +185,7 @@ local servers = {
             },
           },
         },
-      })
+      }
     end,
     ---@type lspconfig.settings.lua_ls
     settings = {
